@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Audio Testimonials</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Audio Testimonials</h1>
+
+    <div class="testimonial">
+      <h2>David's Testimonial</h2>
+      <div id="waveform-david" class="waveform"></div>
+      <button onclick="togglePlay('david')" class="play-btn" id="btn-david">Play</button>
+    </div>
+
+    <div class="testimonial">
+      <h2>Pete's Testimonial</h2>
+      <div id="waveform-pete" class="waveform"></div>
+      <button onclick="togglePlay('pete')" class="play-btn" id="btn-pete">Play</button>
+    </div>
+  </div>
+
+  <script src="wavesurfer.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
