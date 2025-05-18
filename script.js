@@ -32,5 +32,5 @@ function togglePlay(id) {
 }
 
 // Initialize players
-createWaveform("david", "david.mp3");
-createWaveform("pete", "pete.mp3");
+createWaveform("User #1", "Ishani.wav");
+createWaveform("User #2", "Namrata.wav");
