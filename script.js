@@ -32,5 +32,5 @@ function togglePlay(id) {
 }
 
 // Initialize players
-createWaveform("User #1", "Ishani.wav");
-createWaveform("User #2", "Namrata.wav");
+createWaveform("UserA", "Ishani.wav");
+createWaveform("UserB", "Namrata.wav");
